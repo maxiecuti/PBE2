@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="endereco.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscreva sua receita</title>
+</head>
+<body>
+    <form>
+        
+        <img src="./img/J-Photoroom.png" alt="">
+
+<h1>Enter Address </h1>
+
+<label for="cep"> Cep:</label>
+<input type="text" name="cep" id="cep" required="required" autofocus><br>
+
+<label>Estado:</label>
+<select name="categoria" required>
+    <option value="">Selecione...</option>>
+    <option value="acre">AC</option>
+    <option value="alagoas">AL</option>
+    <option value="amapa">AP</option>
+    <option value="amazonas"> AM</option>
+    <option value="bahia"> BA</option>
+    <option value="ceara">CE</option>
+    <option value="espirito santo">ES</option>
+    <option value="goias">GO</option>
+    <option value="maranhao"> MA</option>
+    <option value="mato grosso"> MT</option>
+    <option value="mato grosso do sul">MS</option>
+    <option value="minas gerais">MG</option>
+    <option value="para">PA</option>
+    <option value="paraiba"> PB</option>
+    <option value="parana"> PR</option>
+    <option value="pernambuco">PE</option>
+    <option value="piaui">PI</option>
+    <option value="rio de janeiro">RJ</option>
+    <option value="rio grande do sul"> RS</option>
+    <option value="rio grande do norte"> RN</option>
+    <option value="rondonia"> RO</option>
+    <option value="roraima"> RR</option>
+    <option value="santa catarina">SC</option>
+    <option value="sao paulo">SP</option>
+    <option value="sergipe">SE</option>
+    <option value="tocantins"> TO</option>
+</select>
+<br>
+
+<label for="Cidade"> Cidade:</label>
+<input type="text" name="cidade" id="cidade" required placeholder=""><br>
+
+<label for="bairro"> Bairro:</label>
+<input type="text" name="bairro" id="bairro" required placeholder=""><br>
+
+<label for="rua"> Rua:</label>
+<input type="text" name="rua" id="rua" required="required"><br>
+
+<label for="numero"> Número:</label>
+<input type="number" name="numero" id="numero" required="required"><br>
+
+<label> Complementos:</label>
+<textarea name="complemento" rows="5" cols="50" maxlength="100" required
+    placeholder="Exemplo: Casa, Apartamento..."></textarea>
+<br>
+
+<input type="submit" name="Enter" value="Enter" id="enviar">
+<p>
+	
+	<script src="cadastroEndereco.js"></script>
+
+    </body>
+
+</html>
